@@ -1,0 +1,43 @@
+Simple Linear Regression Intuition, 
+Linearity means there is a relationship between two or more variables, taking a 2-dimensional 
+space, linear relationship between two variables in that space is represented by a straight line. 
+Linear regression predicts an dependent variable based on a dependent variable. Performing a 
+simple regression is finding the best fitting line between the two variables and that line is used 
+to get predicted output or dependent variable. 
+
+Formula for Linear Regression 
+y(output) = b0 + b1x1 
+terms in the formula, 
+y = output 
+b0 = constant 
+x1 = independent variable 
+b1 = coefficient of the independent variable 
+
+Independent variables affect dependent variable, sometimes they dont but there is an 
+association between them. 
+b1 is how a unit change in independent variable affects a unit change in output. 
+
+y(output) = b0 + b1x1 
+y(output) = dependent variable 
+b1x1 = independent variable 
+
+Independent variables affect dependent variables 
+Sometimes independent variables dont affect dependent variables but there is an 
+association between the two. 
+
+b1 => coefficient of the independent variable, how a unit change in x1 affects a unit change in 
+y(output)
+b0 => constant, is the value at which the fitted line in the dataset crosses the y-axis. 
+
+
+This is the easiest to describe, use salary and experience.
+Salary => Vertical axis, Experience => Horizontal axis. 
+Putting a line through the dataset or chart, the line is the best line that fits the data. 
+best fitting line is tells us what salary should be payed based on the model. 
+
+Getting the best fitting line, using ordinary least squares 
+y1 = actual output 
+yhat = predicted output 
+to get the best fitting line out of lots of lines drawn in the chart and counts the sum of squares using 
+ordinary least squares and finds the minimum, which is the best fitting line. 
+SUM(y1 - yhat) pow 2, square the distance between y1 and yhat and find the minimum. 
